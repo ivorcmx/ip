@@ -1,5 +1,12 @@
 package duke;
+<<<<<<< HEAD
 
+=======
+/**
+ Class to represent the Event task
+ Supports description of task and when the task is.
+ */
+>>>>>>> A-JavaDoc
 public class Event extends Task {
 
     protected String at;
@@ -11,6 +18,11 @@ public class Event extends Task {
         this.type = 'e';
     }
 
+    /**
+     *
+     * Method to convert task to String type to be printed in the task list
+     *
+     */
     public String toString() {
         return "[E]" + super.toString() + " (" + at + ")";
     }

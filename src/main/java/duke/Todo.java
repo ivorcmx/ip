@@ -1,9 +1,14 @@
 package duke;
+<<<<<<< HEAD
 /**
  Class to represent the todo task
  Supports description of task
  */
+=======
+
+>>>>>>> A-CodingStandard
 public class Todo extends Task {
+
     char type;
 
     public Todo(String description) {

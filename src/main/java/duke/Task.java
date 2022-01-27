@@ -4,13 +4,13 @@ package duke;
  Class that acts as parent class of all task types.
  */
 public class Task {
+
     protected String description;
     protected boolean isDone;
 
     public Task(String description) {
         this.description = description;
         this.isDone = false;
-
     }
 
     /**

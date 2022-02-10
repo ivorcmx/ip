@@ -1,12 +1,10 @@
 package duke;
-<<<<<<< HEAD
+
 /**
  Class to represent the Event task
  Supports description of task and when the task is.
  */
-=======
 
->>>>>>> A-CodingStandard
 public class Event extends Task {
 
     protected String at;
